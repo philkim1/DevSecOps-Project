@@ -1,0 +1,25 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+
+Regula 
+
+### Example vulnerability
+
+An IAM policy that is non-restrictive or allows access to all resources and actions.
+
+##Scan AMI’s or containers for OS vulnerabilities
+
+AWS Inspector
+
+### Example vulnerability
+
+Allowing SSH password login
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+
+AWS GuardDuty
+
+### Example vulnerability
+
+API calls from IP addresses that are on threat lists

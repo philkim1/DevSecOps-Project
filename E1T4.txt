@@ -1,0 +1,7 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+The security group for the trusted public subnet has no ingress rules, which allows unrestricted access to the web service instance.
+
+# Poor practice 2
+The data is not secured. Files that get placed into the secret recipe vault are not encrypted with a key when uploaded to the bucket, which if downloaded by anyone can also be read.

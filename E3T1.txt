@@ -1,0 +1,5 @@
+# Describe GuardDuty findings that were detected related to the brute force attack
+The findings that were detected were 2 instances of unauthorized access to the EC2 instance by SSH bruteforce.
+
+# Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.
+GuardDuty was able to detect this attack through monitoring of the vpc flow logs on port 22.

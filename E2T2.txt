@@ -1,0 +1,12 @@
+Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
+
+subnets are assigned a public IP address - reassign to a private IP address
+EC2 EBS volumes are not encrypted - encrypt EBS volumes with a KMS key
+load balancer does not have HTTP to HTTPS redirection configured - reconfigure to redirect from HTTP to HTTPS
+load balancer does not have deletion protection enabled - enable load balancer with deletion protection
+S3 buckets do not have lifecycle policy configured - enable a lifecycle policy
+S3 buckets do not have polices that require requests to use SSL - enable a policy that requests to use SSL
+EC2 instances are associated with a public IP - disassociate EC2 instances from the public IP
+
+
+Bonus - provide recommendations on how to remediate the vulnerabilities.
